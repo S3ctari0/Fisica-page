@@ -1,0 +1,53 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+header{
+    width: 100%;
+    padding: 4vh 0;
+}
+header > h1 {
+    text-align: center;
+}
+
+.catalogue {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#680404;
+    padding: 5vh 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 2vw;
+}
+
+.box > a {
+    width: 50%;
+    margin-top: 2vh;
+    padding: 2vh;
+    background-color: #FFD95A;
+    border-radius: 15px;
+}
+
+.box > a > h3 {
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+}
+
+.box > img {
+    max-width: 20vw;
+    min-width: 15vw;
+}
+
+.box > a:hover {
+    background-color: #C07F00;
+}
+
