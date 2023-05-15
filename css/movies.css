@@ -24,13 +24,13 @@ body {
 }
 
 .parrafo {
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
-    max-width: 45%;
+    max-width: 50%;
 }
 
 .image {
-    width: 1000px;
+    width: 900px;
     height: auto;
     position: absolute;
     top: 45%;
